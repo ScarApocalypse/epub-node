@@ -2,16 +2,16 @@ const { env } = require("./env");
 const UPLOAD_PATH =
   env === "dev"
     ? "/Users/74098/upload/admin-upload-ebook"
-    : "root/upload/admin-upload/ebook";
+    : "/project/admin-upload/ebook";
 const UPLOAD_URL =
   env === "dev"
     ? "http://book.youbaobao.xyz:8089/admin-upload-ebook"
-    : "http://www.book.youbaobao.xyz:8089/admin-upload-ebook";
+    : "http://106.52.133.22/admin-upload-ebook";
 
 const OLD_UPLOAD_URL =
   env === "dev"
     ? "http://book.youbaobao.xyz:8089/book/res/img"
-    : "http://www.book.youbaobao.xyz:8089/book/res/img";
+    : "http://106.52.133.22/book/res/img";
 module.exports = {
   CODE_ERROR: -1,
   CODE_SUCCESS: 0,
@@ -25,5 +25,5 @@ module.exports = {
   UPLOAD_PATH,
   MIME_TYPE_EPUB: "application/epub+zip",
   UPLOAD_URL,
-  OLD_UPLOAD_URL
+  OLD_UPLOAD_URL,
 };

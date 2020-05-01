@@ -1,2 +1,2 @@
-const env = "dev";
+const env = "work";
 module.exports = { env };
