@@ -2,7 +2,7 @@ const { env } = require("./env");
 const UPLOAD_PATH =
   env === "dev"
     ? "/Users/74098/upload/admin-upload-ebook"
-    : "/project/admin-upload/ebook";
+    : "/project/admin-upload-ebook";
 const UPLOAD_URL =
   env === "dev"
     ? "http://book.youbaobao.xyz:8089/admin-upload-ebook"
